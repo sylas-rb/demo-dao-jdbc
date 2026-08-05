@@ -1,3 +1,35 @@
-# Project exclude paths
-/out/
-/Projeto_Independente/build/target/
+# Arquivos compilados Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Pastas de output
+bin/
+out/
+target/
+build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Sistemas
+.DS_Store
+Thumbs.db
+
+# Logs e temporários
+*.log
+*.tmp
+*.swp
+*.swo
+*_
+
+# Backup
+*.bak
+*backup
+
+# Pasta de teste temporários
+teste/
+validacoes/
